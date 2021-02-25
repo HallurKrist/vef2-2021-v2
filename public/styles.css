@@ -3,25 +3,26 @@ body {
   display: flex;
   justify-content: center; }
 
-.pageContainer {
+.pagecontainer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  align-self: center;
   max-width: 800px;
   width: 100%; }
 
 .title {
   display: flex;
   justify-content: center;
-  margin-bottom: 0.5em;
-  margin-top: 0.5em; }
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
 
 .form {
-  border-bottom: #999 solid;
-  border-width: 1px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 1.5em; }
+  padding-bottom: 1.5em;
+  border-bottom: #999 solid;
+  border-width: 1px; }
   .form__input {
     display: flex;
     flex-direction: row;
@@ -29,11 +30,11 @@ body {
   .form__label {
     width: 7em; }
   .form__text {
-    height: 1.5em;
-    width: 100%; }
+    width: 100%;
+    height: 1.5em; }
     .form__text__large {
-      height: 3em;
-      width: 100%; }
+      width: 100%;
+      height: 3em; }
   .form__anon {
     display: flex;
     justify-content: center;
@@ -49,39 +50,38 @@ body {
     .form__button__sign {
       background-color: #fff;
       border-radius: 5px;
-      font-size: 1.5em;
-      padding-bottom: 0.2em;
       padding-left: 1em;
       padding-right: 1em;
-      padding-top: 0.2em; }
+      padding-top: 0.2em;
+      padding-bottom: 0.2em;
+      font-size: 1.5em; }
 
 .errors {
-  align-items: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
   .errors__title {
     display: flex;
     justify-content: center; }
   .errors__list {
-    align-items: left;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: fit-content; }
+    flex-direction: column;
+    width: fit-content;
+    align-items: left; }
 
 table {
-  border-collapse: collapse;
-  width: 100%; }
+  width: 100%;
+  border-collapse: collapse; }
 
-th,
-td {
+th, td {
   border: 1px solid #999; }
 
 .list {
-  align-items: center;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
   .list__day {
     width: 10%; }
     .list__day__text {
