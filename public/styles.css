@@ -3,7 +3,11 @@ body {
   display: flex;
   justify-content: center; }
 
+<<<<<<< HEAD
 .pageContainer {
+=======
+.pagecontainer {
+>>>>>>> parent of ed5cd4a (allt...)
   display: flex;
   justify-content: center;
   flex-direction: column;
